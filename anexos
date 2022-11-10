@@ -1,0 +1,1 @@
+New-SelfSignedCertificate -Subject "ulluna.com" -TextExtension @("2.5.29.17={text}DNS=ulluna.com&IPAddress=192.168.0.118&IPAddress=::1")
