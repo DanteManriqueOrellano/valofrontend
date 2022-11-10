@@ -62,12 +62,25 @@
         },
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
+          "options": {
+            "proxyConfig": "src/proxy.conf.json",
+            "ssl": true,
+            "sslCert": "cert/localhost.crt",
+            "sslKey": "cert/localhost.key",
+            "disableHostCheck": true,
+            "host": "192.168.1.86"
+            
+            
+          },
           "configurations": {
             "production": {
-              "browserTarget": "frontendv1:build:production"
+              "browserTarget": "frontendv1:build:production",
+              "port": 3032
             },
             "development": {
-              "browserTarget": "frontendv1:build:development"
+              "browserTarget": "frontendv1:build:development",
+              "port": 4200
+              
             }
           },
           "defaultConfiguration": "development"
@@ -97,5 +110,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "6858eb75-2fe1-40bf-bda9-b93527b12102"
   }
 }

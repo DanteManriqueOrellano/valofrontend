@@ -8,5 +8,10 @@ if (environment.production) {
   enableProdMode();
 }
 
+//Office.initialize = reason =>{
+  
 platformBrowserDynamic().bootstrapModule(AppModule)
-  .catch(err => console.error(err));
+.catch(err => console.error(err));
+
+
+//}

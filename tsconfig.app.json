@@ -3,7 +3,8 @@
   "extends": "./tsconfig.json",
   "compilerOptions": {
     "outDir": "./out-tsc/app",
-    "types": []
+    "target": "ES2015",
+    "types": ["office-js"]
   },
   "files": [
     "src/main.ts",
