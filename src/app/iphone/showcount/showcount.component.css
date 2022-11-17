@@ -1,0 +1,7 @@
+p{
+    font: 1em/1.618 Inter, sans-serif;
+    color: rgba(255, 255, 255,0.9);
+    font-size: 20px;
+   /* min-height: 100vh; /*crea un scroll*/
+  /*box-sizing: inherit;*/
+}

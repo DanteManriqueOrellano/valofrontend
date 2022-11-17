@@ -1,0 +1,23 @@
+body{
+    background-position: center;
+}
+.container{
+    width: 500px;
+    height: 300px;
+    margin: 200px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.algo{
+    
+background: rgba( 18, 179, 72, 0.35 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+-webkit-backdrop-filter: blur( 4px );
+backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+}

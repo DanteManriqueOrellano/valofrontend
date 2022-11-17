@@ -1,1 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+.share-sheet .mat-bottom-sheet-container{
+    
+    background: rgba(19, 86, 202, 0.33);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(18.4px);
+    -webkit-backdrop-filter: blur(18.4px);
+    border: 1px solid rgba(19, 86, 202, 1);
+}
+
+.mat-dialog-container{
+    border: 1px solid rgba(255, 255, 255, .25);
+  border-radius: 50px;
+  background-color: rgba(255, 255, 255, 0.45);
+ 
+
+  backdrop-filter: blur(15px);
+
+}

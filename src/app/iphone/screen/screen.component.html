@@ -1,0 +1,25 @@
+<div class="iphonex">
+    <div class="apps">
+        
+    
+            
+            <div class="app1" (click)="openYesNoDialog()" ></div>
+            <div class="app2" (click)="openDataDialog()"></div>
+
+   
+  
+    </div>
+    
+ 
+</div>
+
+  
+  <!-- Plain Text Example -->
+<ng-template #yesNoDialogTemplate>
+    <span>Do you really want to delete it?</span>
+</ng-template>
+  <!-- Data Example -->
+<ng-template #dataDialogTemplate>
+    <span>Count is: {{ count }}</span>
+    <app-showcount></app-showcount>
+</ng-template>

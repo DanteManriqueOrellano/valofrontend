@@ -1,0 +1,19 @@
+<section class="encabezado">
+    <h1>encabeszado estatico</h1>
+</section>
+
+<section id="cuerpo" class="seccion">
+    
+    <ng-container [ngTemplateOutlet]="data.dialogContent"> </ng-container>
+
+
+</section>
+    
+
+<button  *ngIf="data.declineButtonTitle" mat-button  (click)="dismissBottomSheet()">
+    {{ data.declineButtonTitle }}
+</button>
+
+<button mat-stroked-button color="primary" mat-button (click)="closeBottomSheet()" >
+    {{ data.acceptButtonTitle }}
+</button>
